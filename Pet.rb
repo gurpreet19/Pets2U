@@ -43,7 +43,7 @@ b3= Box.new("B3",40,40)
 @pets=Array[rat,hedgehog,mongoose,snake]
 @boxes=Array[b1,b2,b3]
 @ship_box=Array.new
-#puts "input a pet code"
+puts "input a pet codes"
 pet_codes = gets
 for pet_code in pet_codes.split(',')
     #puts "finding for "+pet_code
@@ -112,6 +112,7 @@ else
         count400=count400-1
     end
 end
+puts "required boxes are"
 puts containers
 
 
